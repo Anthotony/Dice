@@ -139,12 +139,12 @@ if len(dienumlist) > 1:
         del roll_list[0:howmany]
     print('Overall total = ' + str(multiplemod))
 elif dienum == 20 and dieroll == 20 and numdice == 1:
-    print("20 + mod = " + str(rollandmod) + ", Critical Success")
+    print("20 + mod = " + rollandmod + ", Critical Success")
 elif dienum == 20 and dieroll == 1 and numdice == 1:
-    print("1 + mod = " + str(rollandmod) + ", Critical Failure")
+    print("1 + mod = " + rollandmod + ", Critical Failure")
 elif numdice > 1:
-    print(str(dicelist) + " + mod = " + str(mod_total))
+    print(str(dicelist) + " + mod = " + mod_total)
 elif mod == 0:
     print(str(dieroll))
 else:
-    print(str(dieroll) + " + mod = " + str(rollandmod))
+    print(str(dieroll) + " + mod = " + rollandmod)
